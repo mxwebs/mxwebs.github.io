@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+body{
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+
+}
+nav{
+	float: right;
+    
+}
+header::after{
+	content: '';
+	display: table;
+	clear: both;
+}
+nav ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+nav li{
+	display: inline-block;
+	margin-left: 0px 35px;
+	padding-top: 35px;
+	padding-left: 30px;
+	position: relative;
+	font-family: sans-serif;
+    padding-top: 20px;
+	padding-bottom: auto;
+
+}
+header{
+	background:   #24252A;
+	color: #edf0f1;
+	width: 100%;
+	height: 58px;
+	transition: 1s;
+	position: fixed;
+	top: 0;
+}
+nav ul li a{
+	color: #edf0f1;
+	text-decoration: none;
+	font-size: 16px;
+}
+nav ul li a:hover{
+	color: #55d6aa;
+}
+nav a ::before{
+	content: '';
+	display: block;
+	height: 5px;
+	width: 100%;
+	background-color: #24252A;
+	position: absolute;
+}
+.MArgin{
+	margin: 8px;
+
+
+}
+h2{
+	color: #000;
+}
+button {
+    cursor: pointer;
+}
+.logocoin{
+	height: 1.2cm;
+	width: auto;
+	cursor: pointer;
+	border-radius: 50px;
+	padding-top: 5px;
+}
+.container{
+	width: 90%;
+	margin: 0 auto;
+}
+.title {
+	text-align: center;
+	font-weight: 000;
+}
+.itest1{
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
